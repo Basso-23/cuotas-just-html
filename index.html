@@ -7,29 +7,84 @@
 
     <!-- Web page CSS -->
     <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Cuotas Page</title>
   </head>
   <body>
-    <div class="top"></div>
+    <!-- Left arrow -->
+    <div class="slider_arrow l_arrow" data-myslider-prev="id_slider">
+      <div class="arrow-back"></div>
+    </div>
+
+    <!-- Right arrow -->
+    <div class="slider_arrow r_arrow" data-myslider-next="id_slider">
+      <div class="arrow-next"></div>
+    </div>
+
+    <div class="top desktop">
+      <div class="background-design">
+        <div class="top-content">
+          <div class="header fixedCenterXnY">
+            Paga tus cuotas fácil y rápido
+          </div>
+
+          <div class="totals-container">
+            <div>
+              <div class="totals-title">Total</div>
+              <div class="totals-subtitle">$544.62</div>
+            </div>
+            <div>
+              <div class="totals-title">Subtotal</div>
+              <div class="totals-subtitle">$508.99</div>
+            </div>
+            <div>
+              <div class="totals-title">ITBMS</div>
+              <div class="totals-subtitle">$35.63</div>
+            </div>
+          </div>
+
+          <div class="yappy-desktop fixedCenterY">
+            <div class="yappy-btn-img"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="top mobile">
+      <div class="background-design">
+        <div class="top-content">
+          <div class="header-mobile">Paga tus cuotas fácil y rápido</div>
+          <div class="totals-container">
+            <div>
+              <div class="totals-title">Total</div>
+              <div class="totals-subtitle">$544.62</div>
+            </div>
+            <div>
+              <div class="totals-title">Subtotal</div>
+              <div class="totals-subtitle">$508.99</div>
+            </div>
+            <div>
+              <div class="totals-title">ITBMS</div>
+              <div class="totals-subtitle">$35.63</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="center">
+      <div class="top-extra desktop"></div>
+
+      <div class="bottom-extra desktop">
+        <div class="background-design"></div>
+      </div>
       <div class="container">
-        <!-- Left arrow -->
-        <div
-          class="slider_arrow l_arrow fixedCenterY"
-          data-myslider-prev="id_slider"
-        >
-          <div class="arrow-back"></div>
-        </div>
-
-        <!-- Right arrow -->
-        <div
-          class="slider_arrow r_arrow fixedCenterY"
-          data-myslider-next="id_slider"
-        >
-          <div class="arrow-next"></div>
-        </div>
-
         <!-- Slider -->
         <div class="myslider" data-myslider-container="id_slider">
           <div class="myslider__slider" data-myslider-slider="id_slider">
@@ -58,7 +113,15 @@
         </div>
       </div>
     </div>
-    <div class="bottom"></div>
+    <div class="bottom desktop"><div class="background-design"></div></div>
+
+    <div class="bottom mobile">
+      <div class="background-design">
+        <div class="yappy-mobile">
+          <div class="yappy-btn-img"></div>
+        </div>
+      </div>
+    </div>
 
     <!-- Web page script -->
     <script src="assets/js/app.js"></script>
